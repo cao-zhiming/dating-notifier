@@ -17,7 +17,7 @@
             $jan_28_status_html = "danger";
             $jan_28_msg = "很抱歉，出现问题，你可能不能前来了……😭";
             $jan_28_can_go = 0;
-            $jan_28_status_extra_msg = "403意味着，出现事故。我非常抱歉，但是你不能按照之前的约定而来了。我可能会在WAN提供更详细的信息以及如何处理，以及计划如何改变。";
+            $jan_28_status_extra_msg = "403意味着，出现事故。我非常抱歉，但是你不能按照之前的约定而来了。我可能会提供更详细的信息以及如何处理，以及计划如何改变。";
             break;
         case '301':
             $jan_28_status_html = "warning";
