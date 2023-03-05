@@ -1,8 +1,8 @@
 <?php
 require_once "./secret.php";
-/* Go away if you are not Cao Zhiming, thanks. */
+/* Go away if you are not admin, thanks. */
 header("Content-Type: application/json");
-if($_REQUEST["key"]!=$correct_secret){
+if($_REQUEST["key"]!=$secret){
     echo "{'msg':'No access - wrong key.'}";
     exit();
 }
